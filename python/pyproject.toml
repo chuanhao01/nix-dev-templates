@@ -5,6 +5,9 @@ version = "0.1.0"
 authors = [
     { name = "chuanhao01", email = "test@email.com" }
 ]
-dependencies = [
-    "flask"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff",
 ]
